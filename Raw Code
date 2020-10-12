@@ -1,0 +1,44 @@
+onEvent("startbtn", "click", function(){
+setScreen("Opening");
+});
+//Peter Path
+onEvent("Peter", "click", function(){
+setScreen("PeterGame");
+});
+onEvent("Pictureframebtn", "click", function(){
+setScreen("PeterKey");
+});
+onEvent("peterbg", "click", function(){
+setScreen("Gameover");
+});
+onEvent("PLet'sGobtn", "click", function(){
+setScreen("Peterremeet");
+});
+onEvent("PWorngkeys", "click", function(){
+setScreen("Gameover");
+});
+onEvent("PeterKe", "click", function(){
+setScreen("GameWon");
+});
+onEvent("startoverbtn", "click", function(){
+setScreen("Home");
+});
+//Zoey Path
+onEvent("Zoey", "click", function(){
+setScreen("ZoeyGame");
+});
+onEvent("Zscrollbtn", "click", function(){
+setScreen("ZoeyKey");
+});
+onEvent("Zoeybg", "click", function(){
+setScreen("Gameover");
+});
+onEvent("zlet'sgobtn", "click", function(){
+setScreen("ZoeyRemeet");
+});
+onEvent("Wrongkeyspic", "click", function(){
+setScreen("Gameover");
+});
+onEvent("Zkeybtn", "click", function(){
+setScreen("GameWon");
+});
